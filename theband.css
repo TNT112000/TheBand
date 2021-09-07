@@ -1,0 +1,476 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 15px;
+    scroll-behavior: smooth;
+}
+.header__home{
+    display:inline-block;
+}
+.header-close{
+    display:inline-block;
+}
+.header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 46px;
+    background-color:#000;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+.nav .subnav{
+    position: absolute;
+    list-style: none;
+    background-color: white;
+    display: none;
+}
+.nav .subnav a{
+    line-height: 38px;
+    text-decoration: none;
+    color:#000;
+    display: block;
+    padding-right: 72px;
+    padding-left: 18px;
+}
+.nav .subnav li{
+    display: block;
+}
+.nav a{
+    display:inline-block;
+}
+.header__none{
+    list-style: none;
+    display: inline-block;
+}
+.nav > li:hover >a{
+    color:#000;
+}
+.nav > li:hover{
+background-color: #ccc;
+}
+.nav .subnav :hover a{
+    background-color: #ccc;
+}
+
+.nav  li  a {
+    text-decoration: none;
+    color:white;
+    line-height: 46px;
+    padding: 0 24px;
+}
+.slider{
+    position: relative;
+    margin-top: 46px;
+    padding-top:50%;
+    background-image: url(https://www.w3schools.com/w3images/ny.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav__list:hover .subnav
+{
+    display: block;
+}
+.nav__list-icon{
+    color:white;
+}
+.search-btn-search:hover{
+    background-color: #f44336;
+    cursor: pointer;
+}
+.text-content{
+    color:#FFF;
+    position: absolute;
+    bottom: 48px;
+    width: 100%;
+    text-align: center;
+}
+.text-heading{
+    font-weight: 400;
+}
+.text-description
+{
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top:25px;
+}
+.content__section
+{
+    padding-top: 89px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 768px;
+}
+.section-sub-heading{
+    padding: 28px 0;
+    text-align: center;
+    color:#999;
+    font-style: italic;
+}
+.section-heading{
+    font-weight: 400;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+.about-text{
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: justify;
+}
+.content__member-card{
+    padding: 50px 0 100px 0;
+    width: 33.3333%;
+}
+.content__member-img-item
+{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    margin-top: 20px;
+}
+.content__member-name
+{
+    text-align: center;
+}
+.content__member{
+    display: flex;
+}
+.content__section-color{
+    background-color: black;
+    color:white
+}
+.content__list{
+    margin:0 8px;
+    background-color: white;
+    list-style: none;
+    color:#999;
+}
+.content__list-item{
+    padding: 8px 16px;
+    font-size: 15px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.content__list-item-sold-out{
+    width: 70px;
+    padding: 3px 3px;
+    margin-left: 20px;
+    background-color: orangered;
+    color:white;
+    text-align: center;
+}
+.content__list-item-number{
+    float: right;
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    border-radius: 50%;
+    text-align: center;
+    color:white;
+    line-height: 24px;
+}
+
+.content__section-card-tour{
+    width: 33.3333%;
+    background-color: white;
+    color: black;
+    margin: 0 8px;
+}
+.content__section-tour{
+    display: flex;
+    padding:33px 0 111px 0;
+}
+.content__section-img{
+    width: 100%;
+}
+.content__section-name{
+    font-size: 15px;
+    font-weight: 700;
+    margin:16px 0 16px 18px;
+}
+.content__section-time{
+    margin:16px 0 16px 18px;
+    font-size: 15px;
+    color:#666;
+}
+.content__section-text{
+    font-size: 15px;
+    margin:16px 18px 16px 18px;
+}
+.content__section-buy-ticket{
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: black;
+    color:white;
+    padding: 8px 16px;
+    display: inline-block;
+    margin:16px 0 16px 18px;
+    text-decoration: none;
+}
+.content__communications-list
+{
+    width: 50%;
+    list-style: none;
+}
+.content__communications{
+    margin-top: 20px;
+    display: flex;
+}
+.content__communications-item{
+    margin: 5px 0;
+    font-size: 17px;
+}
+.content__communications-icon
+{
+    margin: 0 10px;
+}
+.content__communications-icon-locate{
+    padding-right: 4.5px;
+}
+.content__id
+{
+    padding-bottom: 110px;
+    width: 50%;
+}
+.content__id-name-eamil
+{
+    margin-bottom: 10px;
+    display: flex;
+}
+.content__id-input{
+    display:block;
+    padding: 12px 8px;
+    border:1px solid #ccc;
+}
+.content__id-input-name{
+    width: 49.999%;
+    margin-right: 18px;
+}
+.content__id-input-email{
+    width: 49.999%;
+}
+.content__id-input-message{
+    width: 100%;
+}
+.content__id-button{
+    margin-top: 20px;
+    float:right;
+    padding: 10px 14px;
+    font-size: 15px;
+    border:none;
+    color: #FFF;
+    background-color: #000;
+}
+.map-section-img{
+    width: 100%;
+    background-size: contain;
+}
+    
+.footer__list{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 100px;
+}
+.footer__list-link{
+    margin: 0 2px;
+    font-size: 25px;
+    color:#999;
+}
+.modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    display:none;
+}
+.body{
+    position: absolute;
+    width: 900px;
+    max-width: calc(100% - 32px);
+    height: 471px;
+    background-color: white;
+}
+.header__tickets{
+    position: relative;
+    display: flex;
+    font-size: 30px;
+    color:white;
+    background-color:#009688;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    letter-spacing: 4px;
+    padding: 40px 0;
+}
+.header__tickets-icon{
+    padding-right: 15px ;
+}
+.content__tickets{
+    padding: 20px;
+}
+.content__tickets-input{
+    margin: 15px 0;
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    padding: 10px 10px;
+}
+.content__tickets-pay{
+    width: 100%;
+    padding: 20px 0;
+    color: white;
+    background-color:#009688 ;
+    border:none;
+    margin-top: 3px;
+}
+.header__tickets-item{
+    position: absolute;
+    right: 0;
+    top:0;
+    font-size:15px;
+    padding: 15px;
+}
+.content__tickets-close{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.content__tickets-button
+{
+    background-color: #f44336;
+    color:white;
+    border:none;
+    padding: 8px 16px;
+    font-size: 16px;
+}
+.content__tickets-button:hover{
+    background-color: #ccc;
+    color:#000;
+}
+.content__tickets-pay:hover
+{
+    background-color: #ccc;
+    color:#000;
+}
+.header__tickets-item:hover{
+    background-color: #ccc;
+    color:#000;
+}
+.header__tickets-icon-close{
+    display: inline-block;
+    margin-left: 3px;
+}
+.main
+{
+    overflow-x: hidden;
+}
+.search-icon{
+    margin: auto;
+    color:white;
+}
+.search-btn-search
+{
+    margin-right: 0;
+    display: flex;
+    width: 62px;
+    height: 46px;
+}
+.search-min{
+    display:none;
+}
+
+.search-min{
+    position: relative;
+}
+@media only screen and (max-width:800px) {
+    .content__section-card-tour{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .content__section-tour{
+        display: block;
+    }
+    .content__section{
+        width: 90%;
+    }
+    .content__member{
+        display:block;
+    }
+    .content__member-card{
+        width: 100%;
+    }
+    .content__communications{
+        display: block;
+    }
+    .content__communications-list{
+        width: 100%;
+    }
+    .content__id{
+        margin-top: 30px;
+        width: 100%;
+    }
+    .text-content{
+        display:none;
+    }
+    .search-btn-search{
+        display:none;
+    }
+    .search-min:hover 
+    {
+        background-color: #ccc;
+    }
+    .search-min:hover .search-icon-list{
+        color: black;
+    }
+    .subnav{
+        display: none !important;
+    }
+    .header__home{
+        display: inline-block !important;
+    }
+    .nav__list-item{
+        display:none;
+    }
+    .search-min{
+        display: flex;
+    }
+    .header-close{
+        display:none;
+    }
+}
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
